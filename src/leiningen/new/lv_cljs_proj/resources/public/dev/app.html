@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>{{name}} (Dev Mode Compilation)</title>
+    <link rel="stylesheet" type="text/css" href="../{{name}}.css">
+  </head>
+  <body>
+    <script src="gen/goog/base.js" type="text/javascript"></script>
+    <script src="gen/deps.js" type="text/javascript"></script>
+    <script type="text/javascript">goog.require("{{name}}");</script>
+    <script>{{name}}.main()</script>
+  </body>
+</html>
